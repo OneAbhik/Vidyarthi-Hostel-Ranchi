@@ -1,0 +1,61 @@
+body{
+    background-color: pink;
+    color: black;
+}
+
+.container-fluid{
+    background-color: pink;
+    padding: 7px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbar-toggler{
+    color: black;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30' fill='white'%3e%3cpath stroke='rgb(0, 0, 0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+.navbar-brand{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.house{
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 18px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color:#ffffff;
+}
+
+.navbar a.Active{
+    color:#ffffff;
+}
+
+.card{
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.bx{
+    font-size: 50px;
+}
